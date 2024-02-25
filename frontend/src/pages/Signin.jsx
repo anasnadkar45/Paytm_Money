@@ -40,7 +40,7 @@ export const Signin = () => {
           }} 
           label={"Sign in"} />
         </div>
-        <BottomWarning label={"Don't have an account?"} buttonText={"Sign up"} to={"/signup"} />
+        <BottomWarning label={"Don't have an account?"} buttonText={"Sign-up"} to={"/signup"} />
       </div>
     </div>
   </div>

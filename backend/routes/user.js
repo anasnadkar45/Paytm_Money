@@ -6,6 +6,8 @@ const {JWT_SECRET} = require('../config')
 const {authMiddleware} = require('../middleware')
 const router = express.Router();
 
+
+
 // Adding new user to DB
 const signupBody = zod.object({
     username: zod.string().email(),
